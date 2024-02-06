@@ -1,0 +1,51 @@
+{
+	"name": "mrsan-ui",
+	"version": "1.1.0",
+	"description": "A Personal UI system based on tailwind css and react components",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "rollup -c --bundleConfigAsCjs",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"keywords": ["ui", "tailwind", "react"],
+	"author": "Marco Sandoval",
+	"license": "ISC",
+	"dependencies": {
+		"@heroicons/react": "^2.1.1",
+		"@tanstack/react-table": "^8.11.7",
+		"@types/react-csv": "^1.1.10",
+		"react-csv": "^2.2.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.5.3",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@storybook/addon-essentials": "^7.6.12",
+		"@storybook/addon-interactions": "^7.6.12",
+		"@storybook/addon-links": "^7.6.12",
+		"@storybook/addon-mdx-gfm": "^7.6.12",
+		"@storybook/addon-onboarding": "^1.0.11",
+		"@storybook/blocks": "^7.6.12",
+		"@storybook/react": "^7.6.12",
+		"@storybook/react-vite": "^7.6.12",
+		"@storybook/test": "^7.6.12",
+		"@types/react": "^18.2.48",
+		"autoprefixer": "^10.4.17",
+		"postcss": "^8.4.33",
+		"rollup": "^4.9.6",
+		"rollup-plugin-dts": "^6.1.0",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"storybook": "^7.6.12",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5.3.3"
+	},
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
